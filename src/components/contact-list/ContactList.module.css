@@ -1,0 +1,38 @@
+.list {
+  display: block;
+  list-style: none;
+}
+.list__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Ubuntu";
+  font-size: 18px;
+  line-height: 1.15;
+  font-style: normal;
+  font-weight: 600;
+  width: 300px;
+  margin-bottom: 5px;
+}
+.list__btn {
+  display: block;
+  width: 60px;
+  height: auto;
+  font-family: "Ubuntu";
+  font-size: 16px;
+  line-height: 1.2;
+  font-style: normal;
+  font-weight: 700;
+  color: black;
+  border: 2px solid burlywood;
+  border-radius: 10px;
+  background-color: burlywood;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.list__btn:hover {
+  color: aquamarine;
+  background-color: chocolate;
+  border: 2px solid chocolate;
+}
